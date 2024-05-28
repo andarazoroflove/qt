@@ -1,0 +1,130 @@
+Environment:
+    INCLUDE=
+      C:\deps\libpng-1.6.16
+      C:\deps\openssl-1.0.1l\include
+    LIB=
+      C:\deps\libpng-1.6.16\.libs
+      C:\deps\openssl-1.0.1l
+    PATH=
+      C:\mingw32\bin
+      C:\WINDOWS\system32
+      C:\WINDOWS
+      C:\WINDOWS\System32\Wbem
+      C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+Configuration:
+    pcre
+    release
+    compile_examples
+Qt Configuration:
+    minimal-config
+    small-config
+    medium-config
+    large-config
+    full-config
+    release
+    c++11
+    static
+    system-zlib
+    no-gif
+    no-jpeg
+    png
+    system-png
+    accessibility
+    openssl
+    native-gestures
+    qpa
+    iconv
+    concurrent
+
+QMAKESPEC...................win32-g++ (detected)
+Architecture................i386, features:
+Host Architecture...........i386, features:
+Maketool....................mingw32-make
+Debug.......................no
+Force debug info............no
+C++11 support...............yes
+Link Time Code Generation...no
+Accessibility support.......yes
+RTTI support................yes
+SSE2 support................yes
+SSE3 support................yes
+SSSE3 support...............yes
+SSE4.1 support..............yes
+SSE4.2 support..............yes
+AVX support.................yes
+AVX2 support................yes
+NEON support................no
+IWMMXT support..............no
+OpenGL support..............no
+Large File support..........yes
+NIS support.................no
+Iconv support...............yes
+Evdev support...............no
+Mtdev support...............no
+Inotify support.............no
+eventfd(7) support..........no
+Glib support................no
+CUPS support................no
+OpenVG support..............no
+OpenSSL support.............yes
+Qt D-Bus support............no
+Qt Widgets module support...yes
+Qt GUI module support.......yes
+QML debugging...............no
+DirectWrite support.........no
+Use system proxies..........no
+
+QPA Backends:
+    GDI.....................yes
+    Direct2D................no
+
+Third Party Libraries:
+    ZLIB support............system
+    GIF support.............no
+    JPEG support............no
+    PNG support.............yes
+    FreeType support........no
+    Fontconfig support......no
+    HarfBuzz-NG support.....no
+    PCRE support............qt
+    ICU support.............no
+    ANGLE...................no
+    Dynamic OpenGL..........no
+
+Styles:
+    Windows.................yes
+    Windows XP..............yes
+    Windows Vista...........yes
+    Fusion..................yes
+    Windows CE..............no
+    Windows Mobile..........no
+
+Sql Drivers:
+    ODBC....................no
+    MySQL...................no
+    OCI.....................no
+    PostgreSQL..............no
+    TDS.....................no
+    DB2.....................no
+    SQLite..................no (qt)
+    SQLite2.................no
+    InterBase...............no
+
+Sources are in..............C:\qt\5.3.2
+Build is done in............C:\qt\5.3.2
+Install prefix..............C:\qt\5.3.2
+Headers installed to........C:\qt\5.3.2\include
+Libraries installed to......C:\qt\5.3.2\lib
+Arch-dep. data to...........C:\qt\5.3.2
+Plugins installed to........C:\qt\5.3.2\plugins
+Library execs installed to..C:\qt\5.3.2\bin
+QML1 imports installed to...C:\qt\5.3.2\imports
+QML2 imports installed to...C:\qt\5.3.2\qml
+Binaries installed to.......C:\qt\5.3.2\bin
+Arch-indep. data to.........C:\qt\5.3.2
+Docs installed to...........C:\qt\5.3.2\doc
+Translations installed to...C:\qt\5.3.2\translations
+Examples installed to.......C:\qt\5.3.2\examples
+Tests installed to..........C:\qt\5.3.2\tests
+WARNING: Using static linking will disable the use of plugins.
+         Make sure you compile ALL needed modules into the library.
