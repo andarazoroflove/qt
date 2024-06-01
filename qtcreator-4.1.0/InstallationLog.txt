@@ -1,0 +1,152 @@
+************************************* Invoked: Fri May 31 20:49:45 2024
+[0] Arguments:  C:\Documents and Settings\adam\My Documents\Downloads\qt-creator-opensource-windows-x86-4.1.0.exe
+[116] Operations sanity check succeeded.
+[173] Reading Qt Account settings from disk: "C:/Documents and Settings/adam/Application Data/Qt/qtaccount.ini"
+[173] Qt Account settings file [C:\\Documents and Settings\\adam\\Application Data\\Qt\\qtaccount.ini] does not exist.
+[173] QtAccount information:
+[173] Login completed: false
+[173] Email: ""
+[173] Email verified: false
+[174] Total number of licenses: 0
+[174] Account type: 4
+[4041] Proceed without Qt Account login
+[10616] Tmp and install folder are on the same volume. Volume mount point: "C:\\" Free space available: "63.57 GiB"
+[10616] Installation space required: "275.95 MiB" Temporary space required: "0.00 bytes" Local repository size: "0.00 bytes"
+[12133] backup  operation: Mkdir
+[12134] \t- arguments: C:/Qt/qtcreator-4.1.0
+[12134] Done
+[12134] perform  operation: Mkdir
+[12134] \t- arguments: C:/Qt/qtcreator-4.1.0
+[12135] Done
+[12135] Install size: 5 components
+[12176] backup qt.license.gplv3except operation: License
+[12176] \t- arguments: 
+[12176] Done
+[12177] perform qt.license.gplv3except operation: License
+[12177] \t- arguments: 
+[12178] Done
+[12180] backup qt.tools.vcredist_msvc2013_x86 operation: Extract
+[12180] \t- arguments: installer://qt.tools.vcredist_msvc2013_x86/2014-30-12vcredist_msvc2013_x86.7z, C:\\qt\\qtcreator-4.1.0
+[12180] Done
+[12180] perform qt.tools.vcredist_msvc2013_x86 operation: Extract
+[12180] \t- arguments: installer://qt.tools.vcredist_msvc2013_x86/2014-30-12vcredist_msvc2013_x86.7z, C:\\qt\\qtcreator-4.1.0
+[13118] Done
+[13119] backup qt.tools.qtcreator operation: Extract
+[13119] \t- arguments: installer://qt.tools.qtcreator/4.1.0-0qtcreator.7z, C:\\qt\\qtcreator-4.1.0
+[13119] Done
+[13119] perform qt.tools.qtcreator operation: Extract
+[13119] \t- arguments: installer://qt.tools.qtcreator/4.1.0-0qtcreator.7z, C:\\qt\\qtcreator-4.1.0
+[28313] Done
+[28314] backup qt.tools.qtcreator operation: CreateShortcut
+[28314] \t- arguments: C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe, C:\\Documents and Settings\\adam\\Start Menu\\Programs\\Qt Creator\\Qt Creator 4.1.0 (Community).lnk, workingDirectory=C:/Documents and Settings/adam
+[28314] Done
+[28314] perform qt.tools.qtcreator operation: CreateShortcut
+[28314] \t- arguments: C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe, C:\\Documents and Settings\\adam\\Start Menu\\Programs\\Qt Creator\\Qt Creator 4.1.0 (Community).lnk, workingDirectory=C:/Documents and Settings/adam
+[28374] Done
+[28374] backup qt.tools.qtcreator operation: RegisterFileType
+[28374] \t- arguments: ui, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", Qt UI file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,4, ProgId=QtProject.QtCreator.ui
+[28374] Done
+[28374] perform qt.tools.qtcreator operation: RegisterFileType
+[28374] \t- arguments: ui, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", Qt UI file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,4, ProgId=QtProject.QtCreator.ui
+[28416] Done
+[28416] backup qt.tools.qtcreator operation: RegisterFileType
+[28416] \t- arguments: pro, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", Qt Project file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,5, ProgId=QtProject.QtCreator.pro
+[28416] Done
+[28416] perform qt.tools.qtcreator operation: RegisterFileType
+[28416] \t- arguments: pro, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", Qt Project file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,5, ProgId=QtProject.QtCreator.pro
+[28417] Done
+[28417] backup qt.tools.qtcreator operation: RegisterFileType
+[28417] \t- arguments: pri, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", Qt Project Include file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,6, ProgId=QtProject.QtCreator.pri
+[28417] Done
+[28417] perform qt.tools.qtcreator operation: RegisterFileType
+[28417] \t- arguments: pri, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", Qt Project Include file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,6, ProgId=QtProject.QtCreator.pri
+[28418] Done
+[28419] backup qt.tools.qtcreator operation: RegisterFileType
+[28419] \t- arguments: qbs, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", Qbs Project file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,5, ProgId=QtProject.QtCreator.qbs
+[28419] Done
+[28419] perform qt.tools.qtcreator operation: RegisterFileType
+[28419] \t- arguments: qbs, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", Qbs Project file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,5, ProgId=QtProject.QtCreator.qbs
+[28420] Done
+[28420] backup qt.tools.qtcreator operation: RegisterFileType
+[28420] \t- arguments: qs, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", Qt Script file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,0, ProgId=QtProject.QtCreator.qs
+[28420] Done
+[28420] perform qt.tools.qtcreator operation: RegisterFileType
+[28420] \t- arguments: qs, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", Qt Script file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,0, ProgId=QtProject.QtCreator.qs
+[28421] Done
+[28421] backup qt.tools.qtcreator operation: RegisterFileType
+[28421] \t- arguments: qml, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", Qt Quick Markup language file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,7, ProgId=QtProject.QtCreator.qml
+[28421] Done
+[28421] perform qt.tools.qtcreator operation: RegisterFileType
+[28421] \t- arguments: qml, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", Qt Quick Markup language file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,7, ProgId=QtProject.QtCreator.qml
+[28422] Done
+[28422] backup qt.tools.qtcreator operation: RegisterFileType
+[28422] \t- arguments: h, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", C++ Header file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,3, ProgId=QtProject.QtCreator.h
+[28422] Done
+[28422] perform qt.tools.qtcreator operation: RegisterFileType
+[28422] \t- arguments: h, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", C++ Header file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,3, ProgId=QtProject.QtCreator.h
+[28423] Done
+[28424] backup qt.tools.qtcreator operation: RegisterFileType
+[28424] \t- arguments: hh, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", C++ Header file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,3, ProgId=QtProject.QtCreator.hh
+[28424] Done
+[28424] perform qt.tools.qtcreator operation: RegisterFileType
+[28424] \t- arguments: hh, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", C++ Header file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,3, ProgId=QtProject.QtCreator.hh
+[28425] Done
+[28425] backup qt.tools.qtcreator operation: RegisterFileType
+[28425] \t- arguments: hxx, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", C++ Header file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,3, ProgId=QtProject.QtCreator.hxx
+[28425] Done
+[28425] perform qt.tools.qtcreator operation: RegisterFileType
+[28425] \t- arguments: hxx, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", C++ Header file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,3, ProgId=QtProject.QtCreator.hxx
+[28426] Done
+[28426] backup qt.tools.qtcreator operation: RegisterFileType
+[28426] \t- arguments: h++, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", C++ Header file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,3, ProgId=QtProject.QtCreator.h++
+[28426] Done
+[28426] perform qt.tools.qtcreator operation: RegisterFileType
+[28426] \t- arguments: h++, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", C++ Header file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,3, ProgId=QtProject.QtCreator.h++
+[28427] Done
+[28427] backup qt.tools.qtcreator operation: RegisterFileType
+[28427] \t- arguments: hpp, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", C++ Header file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,3, ProgId=QtProject.QtCreator.hpp
+[28427] Done
+[28427] perform qt.tools.qtcreator operation: RegisterFileType
+[28427] \t- arguments: hpp, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", C++ Header file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,3, ProgId=QtProject.QtCreator.hpp
+[28428] Done
+[28428] backup qt.tools.qtcreator operation: RegisterFileType
+[28428] \t- arguments: cc, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", C++ Source file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,2, ProgId=QtProject.QtCreator.cc
+[28428] Done
+[28428] perform qt.tools.qtcreator operation: RegisterFileType
+[28428] \t- arguments: cc, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", C++ Source file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,2, ProgId=QtProject.QtCreator.cc
+[28429] Done
+[28429] backup qt.tools.qtcreator operation: RegisterFileType
+[28429] \t- arguments: cxx, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", C++ Source file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,2, ProgId=QtProject.QtCreator.cxx
+[28429] Done
+[28429] perform qt.tools.qtcreator operation: RegisterFileType
+[28429] \t- arguments: cxx, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", C++ Source file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,2, ProgId=QtProject.QtCreator.cxx
+[28430] Done
+[28431] backup qt.tools.qtcreator operation: RegisterFileType
+[28431] \t- arguments: c++, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", C++ Source file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,2, ProgId=QtProject.QtCreator.c++
+[28431] Done
+[28431] perform qt.tools.qtcreator operation: RegisterFileType
+[28431] \t- arguments: c++, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", C++ Source file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,2, ProgId=QtProject.QtCreator.c++
+[28432] Done
+[28432] backup qt.tools.qtcreator operation: RegisterFileType
+[28432] \t- arguments: cp, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", C++ Source file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,2, ProgId=QtProject.QtCreator.cp
+[28432] Done
+[28432] perform qt.tools.qtcreator operation: RegisterFileType
+[28432] \t- arguments: cp, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", C++ Source file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,2, ProgId=QtProject.QtCreator.cp
+[28433] Done
+[28433] backup qt.tools.qtcreator operation: RegisterFileType
+[28433] \t- arguments: cpp, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", C++ Source file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,2, ProgId=QtProject.QtCreator.cpp
+[28433] Done
+[28433] perform qt.tools.qtcreator operation: RegisterFileType
+[28433] \t- arguments: cpp, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", C++ Source file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,2, ProgId=QtProject.QtCreator.cpp
+[28434] Done
+[28434] backup qt.tools.qtcreator operation: RegisterFileType
+[28434] \t- arguments: c, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", C Source file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,1, ProgId=QtProject.QtCreator.c
+[28434] Done
+[28434] perform qt.tools.qtcreator operation: RegisterFileType
+[28434] \t- arguments: c, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe -client \"%1\", C Source file, text/plain, C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe,1, ProgId=QtProject.QtCreator.c
+[28435] Done
+[28443] Writing maintenance tool: "C:\\qt\\qtcreator-4.1.0/QtCreatorUninst.exe.new"
+[29418] Wrote permissions for maintenance tool.
+[30417] Maintenance tool restart: false.
+[30427] SHOW FINISHED PAGE
+[32224] run application as detached process: "C:\\Qt\\qtcreator-4.1.0\\\\\\bin\\qtcreator.exe" () "C:/Documents and Settings/adam"

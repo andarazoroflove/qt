@@ -1,0 +1,62 @@
+<Packages>
+    <ApplicationName>Qt Creator 4.1.0</ApplicationName>
+    <ApplicationVersion>1.0.0</ApplicationVersion>
+    <Package>
+        <Name>qt.tools</Name>
+        <Pixmap></Pixmap>
+        <Title>Tools</Title>
+        <Description>IDE, Internationalization, Design and other tools to accelerate development.</Description>
+        <Version>1.0.8-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-05-31</InstallDate>
+        <Size>0</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.license.gplv3except</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt Creator License GPL</Title>
+        <Description></Description>
+        <Version>1.0.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-05-31</InstallDate>
+        <Size>0</Size>
+        <Dependencies></Dependencies>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>qt</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt</Title>
+        <Description>Qt</Description>
+        <Version>1.0.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-05-31</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.license.gplv3except</Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.tools.vcredist_msvc2013_x86</Name>
+        <Pixmap></Pixmap>
+        <Title>VCRedist for MSVC 2013 32bit</Title>
+        <Description>Visual C++ Redistributable Packages for Visual Studio 2013 32 bit</Description>
+        <Version>2014-30-12</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-05-31</InstallDate>
+        <Size>6504024</Size>
+        <Dependencies></Dependencies>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>qt.tools.qtcreator</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt Creator 4.1.0</Title>
+        <Description>IDE for Qt application development</Description>
+        <Version>4.1.0-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-05-31</InstallDate>
+        <Size>256542861</Size>
+        <Dependencies>qt.tools.vcredist_msvc2013_x86</Dependencies>
+        <ForcedInstallation>true</ForcedInstallation>
+    </Package>
+</Packages>
